@@ -1,0 +1,402 @@
+
+@keyframes typing{
+    
+    0% { 
+        content: " ";
+        border-right: 2px solid #fff;
+    }
+    1% { 
+        content: "I'";
+    }
+    2% { 
+        content: "I'm";
+        border-right: 2px solid #fff;
+    }
+    3% { 
+        content: "I'm S";
+    }
+    4% { 
+        content: "I'm Si";
+        border-right: 2px solid #fff;
+    }
+    5% { 
+        content: "I'm Sim";
+    }
+    6% { 
+        content: "I'm Simo";
+        border-right: 2px solid #fff;
+    }
+    7% { 
+        content: "I'm Simon";
+    }
+    8% { 
+        content: "I'm Simone";
+        border-right: 2px solid #fff;
+    }
+    9% { 
+        content: "I'm Simone ";
+    }
+    10% { 
+        content: "I'm Simone O";
+        border-right: 2px solid #fff;
+    }
+    11% { 
+        content: "I'm Simone Ol";
+    }
+    12% { 
+        content: "I'm Simone Oli";
+        border-right: 2px solid #fff;
+    }
+    13% { 
+        content: "I'm Simone Oliv";
+    }
+    14% { 
+        content: "I'm Simone Olivi";
+        border-right: 2px solid #fff;
+    }
+    15% { 
+        content: "I'm Simone Olivia";
+    }
+    16% { 
+        content: "I'm Simone Olivia.";
+        border-right: 2px solid #fff;
+    }
+    17% { 
+        content: "I'm Simone Olivia.";
+        border-right: 2px solid #fff;
+    }
+    18% { 
+        content: "I'm Simone Olivia.";
+    }
+    19% { 
+        content: "I'm Simone Olivia.";
+        border-right: 2px solid #fff;
+    }
+    20% { 
+        content: "I'm Simone Olivia";
+    }
+    21% { 
+        content: "I'm Simone Olivi";
+        border-right: 2px solid #fff;
+    }
+    22% { 
+        content: "I'm Simone Oliv";
+    }
+    23% { 
+        content: "I'm Simone Oli";
+        border-right: 2px solid #fff;
+    }
+    24% { 
+        content: "I'm Simone Ol";
+    }
+    25% { 
+        content: "I'm Simone O";
+        border-right: 2px solid #fff;
+    }
+    26% { 
+        content: "I'm Simone ";
+    }
+    27% { 
+        content: "I'm Simon";
+        border-right: 2px solid #fff;
+    }
+    28% { 
+        content: "I'm Simo";
+    }
+    29% { 
+        content: "I'm Sim";
+        border-right: 2px solid #fff;
+    }
+    30% { 
+        content: "I'm Si";
+    }
+    31% { 
+        content: "I'm S";
+        border-right: 2px solid #fff;
+    }
+    32% { 
+        content: "I'm ";
+    }
+    33% { 
+        content: "I'm a D";
+        border-right: 2px solid #fff;
+    }
+    34% { 
+        content: "I'm a De";
+    }
+    35% { 
+        content: "I'm a Dev";
+        border-right: 2px solid #fff;
+    }
+    36% { 
+        content: "I'm a Deve";
+    }
+    37% { 
+        content: "I'm a Devel";
+        border-right: 2px solid #fff;
+    }
+    38% { 
+        content: "I'm a Develo";
+    }
+    39% { 
+        content: "I'm a Develop";
+        border-right: 2px solid #fff;
+    }
+    40% { 
+        content: "I'm a Develope";
+    }
+    41% { 
+        content: "I'm a Developer";
+        border-right: 2px solid #fff;
+    }
+    42% { 
+        content: "I'm a Developer.";
+    }
+    43% { 
+        content: "I'm a Developer.";
+        border-right: 2px solid #fff;
+    }
+    44% { 
+        content: "I'm a Developer.";
+    }
+    45% { 
+        content: "I'm a Developer.";
+        border-right: 2px solid #fff;
+    }
+    46% { 
+        content: "I'm a Develope";
+        border-right: 2px solid #fff;
+    }
+    47% { 
+        content: "I'm a Develop";
+    }
+    48% { 
+        content: "I'm a Develo";
+        border-right: 2px solid #fff;
+    }
+    49% { 
+        content: "I'm a Devel";
+    }
+    50% { 
+        content: "I'm a Deve";
+        border-right: 2px solid #fff;
+    }
+    51% { 
+        content: "I'm a Dev";
+    }
+    52% { 
+        content: "I'm a De";
+        border-right: 2px solid #fff;
+    }
+    53% { 
+        content: "I'm a D";
+    }
+    54% { 
+        content: "I'm a ";
+        border-right: 2px solid #fff;
+    }
+    55% { 
+        content: "I'm a D";
+    }
+    56% { 
+        content: "I'm a De";
+        border-right: 2px solid #fff;
+    }
+    57% { 
+        content: "I'm a Des";
+    }
+    58% { 
+        content: "I'm a Desi";
+        border-right: 2px solid #fff;
+    }
+    59% { 
+        content: "I'm a Desig";
+    }
+    60% { 
+        content: "I'm a Design";
+        border-right: 2px solid #fff;
+    }
+    61% { 
+        content: "I'm a Designe";
+    }
+    62% { 
+        content: "I'm a Designer.";
+        border-right: 2px solid #fff;
+    }
+    63% { 
+        content: "I'm a Designer.";
+    }
+    64% { 
+        content: "I'm a Designer.";
+        border-right: 2px solid #fff;
+    }
+    65% { 
+        content: "I'm a Designer.";
+    }
+    66% { 
+        content: "I'm a Designer";
+        border-right: 2px solid #fff;
+    }
+    67% { 
+        content: "I'm a Designe";
+    }
+    68% { 
+        content: "I'm a Design";
+        border-right: 2px solid #fff;
+    }
+    69% { 
+        content: "I'm a Desig";
+    }
+    70% { 
+        content: "I'm a Desi";
+        border-right: 2px solid #fff;
+    }
+    71% { 
+        content: "I'm a Des";
+    }
+    72% { 
+        content: "I'm a De";
+        border-right: 2px solid #fff;
+    }
+    73% { 
+        content: "I'm a D";
+    }
+    74% { 
+        content: "I'm a ";
+        border-right: 2px solid #fff;
+    }
+    75% { 
+        content: "I'm a P";
+    }
+    76% { 
+        content: "I'm a Ph";
+        border-right: 2px solid #fff;
+    }
+    77% { 
+        content: "I'm a Pho";
+    }
+    78% { 
+        content: "I'm a Phot";
+        border-right: 2px solid #fff;
+    }
+    79% { 
+        content: "I'm a Photo";
+    }
+    80% { 
+        content: "I'm a Photog";
+        border-right: 2px solid #fff;
+    }
+    81% { 
+        content: "I'm a Photogr";
+    }
+    82% { 
+        content: "I'm a Photogra";
+        border-right: 2px solid #fff;
+    }
+    83% { 
+        content: "I'm a Photograp";
+    }
+    84% { 
+        content: "I'm a Photograph";
+        border-right: 2px solid #fff;
+    }
+    85% { 
+        content: "I'm a Photographe";
+    }
+    86% { 
+        content: "I'm a Photographer";
+        border-right: 2px solid #fff;
+    }
+    87% { 
+        content: "I'm a Photographer.";
+    }
+    88% { 
+        content: "I'm a Photographer.";
+        border-right: 2px solid #fff;
+    }
+    89% { 
+        content: "I'm a Photographer.";
+    }
+    90% { 
+        content: "I'm a Photographe";
+        border-right: 2px solid #fff;
+    }
+    91% { 
+        content: "I'm a Photograp";
+    }
+    92% { 
+        content: "I'm a Photogr";
+        border-right: 2px solid #fff;
+    }
+    93% { 
+        content: "I'm a Photo";
+    }
+    94% { 
+        content: "I'm a Pho";
+        border-right: 2px solid #fff;
+    }
+    95% { 
+        content: "I'm a P";
+    }
+    96% { 
+        content: "I'm a";
+        border-right: 2px solid #fff;
+    }
+    97% { 
+        content: "I'm";
+    }
+    98% { 
+        content: "I'";
+        border-right: 2px solid #fff;
+    }
+    99% { 
+        content: "I";
+    }
+    100% { 
+        content: "";
+        border-right: 2px solid #fff;
+    }
+}
+@keyframes moving-arrow{
+    0%{
+        top: 0;
+    }
+    15%{
+        top: 15%;
+    }
+    30%{
+        top: 30%;
+    }
+    45%{
+        top: 45%;
+    }
+    60%{
+        top: 60%;
+    }
+    75%{
+        top: 75%;
+    }
+    100%{
+        top: 75.5%;
+    }
+}
+@keyframes opacity {
+    0%{
+        opacity: .1;
+    }
+    12.5%{
+        opacity: .2;
+    }
+    25%{
+        opacity: .3;
+    }
+    25%{
+        opacity: .5;
+    }
+    50%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}

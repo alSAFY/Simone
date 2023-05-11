@@ -1,0 +1,636 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.sp-between{
+    justify-content: space-between;
+}
+.main-color{
+    color: #20c997;
+}
+.main-bg{
+    background-color: #20c997;
+}
+.centered-text{
+    text-align: center;
+}
+ /* 
+    ==============================================
+    ================ section one  ==============
+    ==============================================*/
+.section-one{
+    height: 100vh;
+    background-image: url('../images/intro-bg.jpg');
+    background-size: cover ;
+}
+.section-one .dark-bg{
+    height: 100%;
+    background-color: rgba(19, 19, 19, 0.7);
+}
+.section-one .dark-bg .navbar{
+    padding: 0 1.25em;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #111;
+    z-index: 999;
+}
+.section-one .dark-bg .navbar .logo{
+    width: 20%;
+    padding: 1.25em 0;
+}
+/* .section-one .dark-bg .navbar .links{
+    width: 60%;
+} */
+.section-one .dark-bg .navbar .links ul{
+    display: flex;
+    justify-content: center;
+}
+.section-one .dark-bg .navbar .links ul li a{
+    display: block;
+    height: 100%;
+    padding: 1.25em ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section-one .dark-bg .navbar .links ul li a:hover{
+    color: #20c997;
+}
+.section-one .dark-bg .navbar .links ul li.nav-icon{
+    display: none;
+}
+.section-one .dark-bg .settings{
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.section-one .dark-bg .up img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.section-one .dark-bg .settings img{
+    width: 24px;
+}
+.section-one .dark-bg .container {
+    height: 83vh;
+    align-items: center;
+    justify-content: center;
+}
+.section-one .dark-bg .main-text{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.section-one .dark-bg .container .main-text p:first-child{
+    font-size: 1.75em;
+    color: #fff;
+}
+.section-one .dark-bg .container .main-text h1{
+    font-size: 4em;
+    color: #fff;
+}
+.section-one .dark-bg .container .main-text h1::after{
+    content: "";
+    animation-name: typing;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.section-one .dark-bg .container .main-text p:nth-child(3){
+    font-size: 1.25em;
+    color: #fff;
+}
+.section-one .dark-bg .container .main-text button{
+    width: 10em;
+    height: 3.5em;
+    margin: 3em 0 05em;
+    color: #20c997;
+    border: 2px solid #20c997;
+    border-radius: 1.75em;
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+.section-one .dark-bg .container .main-text button:hover{
+    color: #fff;
+    background-color: #20c997;
+}
+
+.section-one .dark-bg .container .main-text .down-arrow{
+    position: relative;
+    height: 100px;
+}
+.section-one .dark-bg .container .main-text .down-arrow img{
+    width: 24px;
+    position: absolute;
+    animation: moving-arrow 2s infinite ease-in, opacity 2s infinite ease-in;
+}
+
+/* 
+===============================================
+============ section two ======================
+=============================================== */
+.section-two{
+    margin-top: 100px;
+}
+.container .head{
+    height: 8rem;
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container .head p{
+    font-size: 8rem;
+    line-height: 100%;
+    font-weight: 600;
+    opacity: .05;
+}
+.container .head .layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .head .layer h2{
+    font-size: 2.25rem;
+    position: relative;
+    padding: .5rem 0;
+    color: #4c4d4d;
+}
+.container .head .layer h2::after{
+    content: "";
+    height: .25rem;
+    width: 30%;
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    background-color: #20c997;
+}
+.section-two .container .content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.section-two .container .content .left{
+    width: 65%;
+}
+.section-two .container .content .left h3{
+    color: #4c4d4d;
+}
+.section-two .container .content .left>p{
+    margin: 1rem 0;
+    color: #4c4d4d;
+}
+.section-two .container .content .right{
+    width: 30%;
+}
+.section-two .container .content .right ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-two .container .content .right ul li:not(:last-child){
+    border-bottom: 1px solid #ccc;
+}
+.section-two .container .content .right ul li p{
+    font-weight: bold;
+    color: #4c4d4d;
+}
+.section-two .container .content .right ul li p span{
+    font-weight: 400;
+}
+
+.section-two .container .content .right ul li button {
+
+    width: 60%;
+    height: 3rem;
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+}
+.section-two .container .flex{
+    margin-top: 5rem;
+    justify-content: space-evenly;
+}
+.section-two .container .flex .centered-text{
+    width: 25%;
+    padding: 1rem 0;
+    border-right: 1px dotted #ccc;
+}
+.section-two .container .flex .centered-text:last-child{
+    border-right: none;
+}
+.section-two .container .flex .centered-text p:first-child{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #6c757d;
+
+}
+.section-two .container .flex .centered-text p:last-child{
+    color: #4c4d4d;
+}
+/* 
+===============================================
+============ section three ====================
+=============================================== */
+.section-three{
+    margin-top: 100px;
+    background-color: #f8f9fa;
+}
+.section-three .container>.flex{
+    margin: 3rem 0;
+}
+.section-three .container .flex .col{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-three .container .flex .col .flex{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+.section-three .container .flex .col .flex img{
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: .5rem;
+    margin-right: 1rem;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #ccc, -1px -1px 1px #eee;
+}
+.section-three .container .flex .col .flex h4{
+    color: #252b33;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* 
+===============================================
+============ section four= ====================
+=============================================== */
+.section-four .container>.flex{
+    margin: 3rem 0;
+    justify-content: space-between;
+}
+.section-four .container .flex .col:first-child{
+    margin-right: 2rem;
+}
+.section-four .container .flex .col:last-child{
+    margin-left: 2rem;
+}
+.section-four .container .flex .col h3{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+    color: #252b33;
+    font-weight: 600;
+}
+.section-four .container .flex .col .card{
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+}
+.section-four .container .flex .col .card p:first-child{
+    width: fit-content;
+    padding: .1rem .5rem;
+    font-size: .85rem;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+.section-four .container .flex .col .card h4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #252b33 ;
+}
+.section-four .container .flex .col .card .red{
+    color: #dc3545;
+    margin: .5rem 0 1rem ;
+}
+.section-four .container .flex .col .card p:last-child{
+    color: #252b33;
+}
+.section-four .container .skills h3{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #252b33;
+}
+.section-four .container .skills .progress{
+    width: 47.5%;
+    margin-bottom: 2rem;
+}
+.section-four .container .skills .progress .flex:first-child{
+    justify-content: space-between;
+}
+.section-four .container .skills .progress .flex:last-child{
+    width: 100%;
+    height: .5rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+.section-four .container .skills .progress .flex .bar:first-child{
+    border-radius: .25rem 0 0 .25rem;
+}
+.section-four .container .skills .progress .flex .bar:last-child{
+    border-radius: 0 .25rem .25rem 0;
+}
+.section-four .container .skills .progress .flex .bar:first-child{
+    width: 65%;
+}
+.section-four .container .skills .progress .flex .bar:last-child{
+    width: 35%;
+    background-color: #e9ecef;
+}
+.section-four .container .skills .progress:nth-child(2) .flex .bar:first-child{
+    width: 70%;
+}
+.section-four .container .skills .progress:nth-child(2) .flex .bar:last-child{
+    width: 30%;
+    background-color: #e9ecef;
+}
+.section-four .container .skills .progress:nth-child(3) .flex .bar:first-child{
+    width: 95%;
+}
+.section-four .container .skills .progress:nth-child(3) .flex .bar:last-child{
+    width: 5%;
+    background-color: #e9ecef;
+}
+.section-four .container .skills .progress:nth-child(4) .flex .bar:first-child{
+    width: 60%;
+}
+.section-four .container .skills .progress:nth-child(4) .flex .bar:last-child{
+    width: 40%;
+    background-color: #e9ecef;
+}
+.section-four .container .skills .progress:nth-child(5) .flex .bar:first-child{
+    width: 80%;
+}
+.section-four .container .skills .progress:nth-child(5) .flex .bar:last-child{
+    width: 20%;
+    background-color: #e9ecef;
+}
+.section-four .container .skills .progress:nth-child(6) .flex .bar:first-child{
+    width: 99%;
+}
+.section-four .container .skills .progress:nth-child(6) .flex .bar:last-child{
+    width: 1%;
+    background-color: #e9ecef;
+}
+.section-four .container>.centered-text button{
+    width: 20%;
+    height: 3.5rem;
+    margin: 2rem 0 5rem;
+    border: 2px solid #898b8b;
+    border-radius: 1.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #898b8b;
+    background-color: transparent;
+    transition: all .5s;
+}
+.section-four .container>.centered-text button:hover{
+    color: #fff;
+    background-color: #4c4d4d;
+}
+/* 
+===============================================
+=============== section five ==================
+=============================================== */
+.section-five{
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+.section-five .container .sec-nav{
+    margin: 2rem 0;
+    text-align: center;
+}
+.section-five .container .sec-nav button{
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: #4c4d4d;
+    cursor: pointer;
+    transition: all .5s;
+}
+.section-five .container .sec-nav button:first-child{
+    color: #20c997;
+    border-bottom: 2px solid #20c997;
+}
+.section-five .container .sec-nav button:hover{
+    color: #20c997;
+}
+.section-five .container .gallery .col{
+    width: 32%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: fit-content;
+    align-content: space-between ;
+}
+.section-five .container .gallery .parent img{
+    width: 100%;
+    display: block;
+    border-radius: .25rem;
+}
+.section-five .container .gallery .parent{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.section-five .container .gallery .parent .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem;
+    background-color: rgba(37, 43, 51, .7);
+    backdrop-filter: blur(1px);
+    color: #ccc;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.section-five .container .gallery .parent:hover .layer{
+    opacity: 1;
+}
+/* 
+===============================================
+============ section six ======================
+=============================================== */
+.section-six .container .flex .post{
+    width: 48%;
+    padding: 3rem;
+    background-color: #f8f9fa;
+}
+.section-six .container .flex .post .header img{
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+.section-six .container .flex .post .header .text h5{
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.section-six .container .flex .post .header .text p{
+    color: #6c757d;
+    font-weight: 500;
+}
+.section-six .container .flex .post .body{
+    margin: 1.5rem 0;
+}
+.section-six .container .flex .post .body p{
+    font-weight: 500;
+    color: #212529;
+}
+.section-six .container .flex .post .rate img{
+    width: 16px;
+}
+.section-six .container .flex:last-child{
+    justify-content: center;
+}
+.section-six .container .flex .outer:first-child{
+    border: 1px solid #20c997;
+}
+.section-six .container .flex .outer{
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    margin: 1rem .25rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.section-six .container .flex .outer .inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.section-six .container .flex .outer:last-child .inner{
+    background-color: #666;
+}
+.section-six .container .flex .outer:last-child:hover {
+border: 1px solid #20c997;
+}
+.section-six .container .flex .outer:last-child:hover .inner{
+    background-color: #20c997;
+}
+/* 
+===============================================
+================ section seven ================
+=============================================== */
+
+.section-seven {
+    background-color: #f8f9fa;
+}
+.section-seven .container .flex .col:first-child{
+    width: 20%;
+}
+.section-seven .container .flex .col:last-child{
+    width: 75%;
+}
+.section-seven .container .flex .col:first-child img{
+    width: 28px;
+    vertical-align: middle;
+}
+.section-seven .container .flex .col:first-child ul li{
+    margin: .5rem 0;
+}
+.section-seven .container .flex .col:first-child ul li:first-child{
+    margin: 2rem 0;
+}
+
+.section-seven .container .flex .col form input{
+    width: 47%;
+    height: 3rem;
+    padding: 0 1rem;
+    border: 1px solid #ccc;;
+    border-radius: 4px;
+
+}
+.section-seven .container .flex .col form input::placeholder{
+    color: #ccc;
+    font-size: 1rem;
+}
+.section-seven .container .flex .col form textarea{
+    width: 100%;
+    height: 8rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ccc;;
+    border-radius: 4px;
+
+}
+.section-seven .container .flex .col form textarea::placeholder{
+    color: #ccc;
+    font-size: 1rem;
+}
+.section-seven .container .flex .col form button{
+    width: 30%;
+    height: 3rem;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+}
+/* 
+=======================================
+===========  footer  ==================
+=======================================
+*/
+.footer{
+    margin: 5rem 0 2rem;
+}
+.footer .container a{
+    color: #212529;
+    transition: color 0.5s ease;
+}
+.footer .container a:hover{
+    color: #20c997;
+}
+.footer .container a:first-child{
+    padding-right: 1rem;
+    margin-right: 1rem;
+    border-right: 1px solid #ccc;
+}

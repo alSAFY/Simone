@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    /* ================================================ 
+       ================ section one ===================
+       ================================================*/
+        .section-one{
+            font-size: 12px;
+        }
+       .section-one .dark-bg .navbar{
+        position: fixed;
+        background-color: #111;
+        z-index: 9999;
+        justify-content: space-between;
+    }
+    .section-one .dark-bg .navbar .links .nav-link{
+        display: none;
+    }
+    .section-one .dark-bg .navbar .links ul li:last-child{
+        display: block !important;
+    }
+    .section-one .dark-bg .navbar .links ul li:last-child img{
+        width: 32px;
+    }
+    /* 
+    ==============================================
+    ================ section two =================
+    ==============================================*/
+    .container .head p{
+        font-size: 5rem !important;
+    }
+    .container .head .layer h2{
+        font-size: 1.8rem !important;
+    }
+    .section-two .container .content{
+        flex-direction: column;
+    
+    }
+    .section-two .container .content .left{
+        text-align: center;
+    }
+    .section-two .container .content .left,
+    .section-two .container .content .right{
+        width: 100% !important;
+    }
+    .section-two .container .content .right ul li{
+        padding: 1rem 0;
+    }
+    .section-two .container .flex:last-child{
+        flex-wrap: wrap;
+    }
+    .section-two .container .flex:last-child .centered-text{
+        width: 50%;
+        border-bottom: 1px dotted #ccc;
+    }
+    .section-two .container .flex:last-child .centered-text:nth-child(2){
+        border-right: none;
+    }
+    .section-two .container .flex:last-child .centered-text:nth-child(3),
+    .section-two .container .flex:last-child .centered-text:nth-child(4){
+        border-bottom: none;
+    }
+    /* 
+    ==============================================
+    ================ section three ===============
+    ==============================================*/
+    .section-three .container>.flex {
+        flex-direction: column;
+    }
+    /* 
+    ==============================================
+    ================ section four ================
+    ==============================================*/
+    .section-four .container>.flex {
+        flex-direction: column;
+    }
+    .section-four .container .flex .col{
+        margin-left: 0 !important;
+    }
+    .section-four .container .skills>.flex{
+        flex-direction: column;
+    }
+    .section-four .container .skills .progress{
+        width: 100% !important;
+    }
+    .section-four .container>.centered-text button{
+        width: 30% !important;
+    }
+    /* 
+    ===============================================
+    ============ section six ======================
+    =============================================== */
+    .section-six .container .flex .post{
+        width: 100% !important;    
+    }
+    .section-six .container .flex .post:last-child{
+        display: none;
+    }
+    /* 
+    ===============================================
+    ============ section seven ====================
+    =============================================== */
+    .section-seven .container .flex{
+        flex-direction: column;
+    }
+    .section-seven .container .flex .col:first-child{
+        order: 2;
+    }
+    .section-seven .container .flex .col:first-child{
+        text-align: center;
+    }
+    .section-seven .container .flex .col,
+    .section-seven .container .flex .col form input{
+        width: 100% !important;
+        margin: 1rem 0;
+    }
+/* 
+==================================================
+================== footer ========================
+==================================================
+*/
+    .footer .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
